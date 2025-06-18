@@ -3400,7 +3400,7 @@ background-color: rgba(0, 0, 0, 0.15);
 }
 
 .banner-box .button {
-  display: inline-block;
+display: block;
   background-color: royalblue;
   color: white;
   padding: 0.5rem 1rem;        /* smaller padding */
