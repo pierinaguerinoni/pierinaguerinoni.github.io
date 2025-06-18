@@ -3439,3 +3439,13 @@ background-color: rgba(0, 0, 0, 0.15);
   margin: 0 0.5rem;
   color: white;
 }
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.icons i:hover {
+  color: #f2849e;
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
