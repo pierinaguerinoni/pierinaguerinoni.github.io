@@ -3418,6 +3418,7 @@ display: block;
   font-size: 1.4rem;
   color: white;
   text-decoration: none;
+  border-bottom: none;
 }
 .cursor {
   display: inline-block;
