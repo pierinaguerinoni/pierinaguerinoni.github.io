@@ -3434,4 +3434,8 @@ background-color: rgba(0, 0, 0, 0.15);
     opacity: 0;
   }
 }
-
+.icons i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: white;
+}
