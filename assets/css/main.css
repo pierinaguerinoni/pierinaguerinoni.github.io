@@ -3331,7 +3331,7 @@ input, select, textarea {
 .banner-container {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 85vh; /* make the banner much taller */
   overflow: hidden;
 }
 
@@ -3375,7 +3375,7 @@ input, select, textarea {
   position: absolute;
   z-index: 2;
   top: 50%;
-  left: 50%;
+  left: 65%; /* moved to the right */
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
