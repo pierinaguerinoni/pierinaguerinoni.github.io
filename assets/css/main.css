@@ -3374,8 +3374,8 @@ background-color: rgba(0, 0, 0, 0.15);
 .banner-box {
   position: absolute;
   z-index: 2;
-  top: 50%;
-  left: 65%; /* moved to the right */
+  top: 60%;    
+  left: 72%;    
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
