@@ -3421,11 +3421,15 @@ input, select, textarea {
 .cursor {
   display: inline-block;
   margin-left: 4px;
-  color: white;
-  animation: blink 1s infinite;
+  color: white; /* Or change to black for debugging */
+  font-weight: 100;
+  font-size: 1.8rem;
+  animation: blink 1s step-start infinite;
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50%      { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
+
