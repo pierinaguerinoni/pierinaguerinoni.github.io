@@ -3388,6 +3388,12 @@ background-color: rgba(0, 0, 0, 0.15);
   max-width: 400px;
 }
 
+.banner-box h1,
+.banner-box h2 {
+  text-align: left;
+  margin-left: 1rem; /* tweak this as needed */
+  max-width: 100%;
+}
 .banner-box h1 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
