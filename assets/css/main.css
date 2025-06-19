@@ -3478,12 +3478,12 @@ background-color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
   color: #aa0000;
   width: 0;
-animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
+animation: typing 2s steps(8, end) forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 9ch }  /* Try 9ch instead of 7ch */
+  to { width: 8ch } /* Adjusted for 8 characters */
 }
 
 @keyframes blink {
@@ -3495,4 +3495,11 @@ animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
 }
 .banner-box a {
   text-decoration: none;
+}
+.banner-box .button {
+  border-bottom: none !important;
+}
+.banner-box .button a {
+  text-decoration: none !important;
+  border-bottom: none !important;
 }
