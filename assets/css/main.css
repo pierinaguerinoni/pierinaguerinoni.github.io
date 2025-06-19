@@ -3328,10 +3328,11 @@ input, select, textarea {
 		}
 
 .banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   position: relative;
-  width: 100%;
-  height: 100vh; /* make the banner much taller */
-  overflow: hidden;
 }
 
 .banner {
@@ -3372,9 +3373,9 @@ background-color: rgba(0, 0, 0, 0.15);
 
 .banner-box {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
-  transform: none; /* remove centering offset */
+  top: 50%;
+  left: 75%; /* adjust this left value as needed */
+  transform: translate(-50%, -50%);
   z-index: 2;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
