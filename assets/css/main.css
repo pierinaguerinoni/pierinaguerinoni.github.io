@@ -3477,7 +3477,7 @@ background-color: rgba(0, 0, 0, 0.15);
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
-    width: 19ch; /* 7 letters + 6 spaces */
+    width: 25ch; /* 7 letters + 6 spaces */
   animation: typing 2s steps(16, end) forwards;
 }
 
