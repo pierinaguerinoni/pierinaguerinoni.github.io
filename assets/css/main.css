@@ -3476,8 +3476,8 @@ background-color: rgba(0, 0, 0, 0.15);
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
-  width: 0;
-  animation: typing 2s steps(14, end) forwards;
+  width: 8ch; /* 8 characters: P I E R I N A */
+  animation: typing 2s steps(8, end) forwards;
 }
 
 @keyframes typing {
