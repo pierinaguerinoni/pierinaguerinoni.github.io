@@ -3473,7 +3473,6 @@ background-color: rgba(0, 0, 0, 0.15);
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  /* border-right: 2px solid white; */  /* optional: remove the cursor line */
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
