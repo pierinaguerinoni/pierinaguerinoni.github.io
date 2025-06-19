@@ -3502,3 +3502,35 @@ background-color: rgba(0, 0, 0, 0.15);
 .typing {
   border: none !important;
 }
+.about-section {
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.about-section .inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.8rem;
+}
+
+.about-section ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0 auto 2rem auto;
+  max-width: 600px;
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
