@@ -3472,16 +3472,21 @@ background-color: rgba(0, 0, 0, 0.15);
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid white; /* this simulates the | cursor */
+  border-right: 2px solid white;
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
-  animation: typing 3s steps(7, end), blink 0.75s step-end infinite;
+  width: 0; /* start at 0 width for typing effect */
+  animation:
+    typing 2s steps(7, end) forwards,
+    blink 0.75s step-end infinite;
 }
+
 @keyframes typing {
   from { width: 0 }
-  to { width: 7ch }
+  to { width: 7ch } /* 7 characters in PIERINA */
 }
+
 @keyframes blink {
   50% { border-color: transparent }
 }
