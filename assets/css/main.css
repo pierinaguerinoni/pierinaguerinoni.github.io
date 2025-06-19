@@ -3483,7 +3483,7 @@ animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 7ch } /* 7 characters = P I E R I N A */
+  to { width: 9ch }  /* Try 9ch instead of 7ch */
 }
 
 @keyframes blink {
