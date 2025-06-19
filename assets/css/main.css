@@ -3483,7 +3483,7 @@ background-color: rgba(0, 0, 0, 0.15);
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 7ch } /* 7 characters in PIERINA */
+  to { width: 8.5ch }
 }
 
 @keyframes blink {
