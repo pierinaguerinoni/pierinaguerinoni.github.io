@@ -3477,14 +3477,13 @@ background-color: rgba(0, 0, 0, 0.15);
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
-  font-family: monospace;
   width: 0;
-  animation: typing 2.5s steps(7, end) forwards, blink 0.75s step-end infinite;
+  animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: max-content; } /* new fix */
+  to { width: 7ch } /* 7 characters = P I E R I N A */
 }
 
 @keyframes blink {
