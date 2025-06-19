@@ -3373,25 +3373,25 @@ background-color: rgba(0, 0, 0, 0.15);
 .banner-box {
   position: absolute;
   z-index: 2;
-  top: 60%;    
-  left: 72%;    
+  top: 50%; /* center vertically */
+  left: 50%; /* center horizontally */
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 3rem 2rem; /* more vertical space */
   text-align: center;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
-  width: 90%;
-  max-width: 400px;
+  width: 95%;
+  max-width: 500px;
 }
 
 .banner-box h1,
 .banner-box h2 {
-  text-align: left;
-  margin-left: 1rem; /* tweak this as needed */
+  text-align: center;
+  margin-left: 0;
   max-width: 100%;
 }
 .banner-box h1 {
