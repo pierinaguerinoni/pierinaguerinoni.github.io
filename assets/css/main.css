@@ -3483,7 +3483,7 @@ background-color: rgba(0, 0, 0, 0.15);
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 15ch }
+  to { width: 26ch }
 }
 .banner-box .button {
   text-decoration: none;
