@@ -3539,3 +3539,6 @@ background-color: rgba(0, 0, 0, 0.15);
   font-size: 1rem;
   line-height: 1.7;
 }
+.center {
+  text-align: center;
+}
