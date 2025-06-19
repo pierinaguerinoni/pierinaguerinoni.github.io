@@ -3489,3 +3489,10 @@ background-color: rgba(0, 0, 0, 0.15);
 @keyframes blink {
   50% { border-color: transparent }
 }
+.banner-box .button {
+  text-decoration: none;
+  border-bottom: none;
+}
+.banner-box a {
+  text-decoration: none;
+}
