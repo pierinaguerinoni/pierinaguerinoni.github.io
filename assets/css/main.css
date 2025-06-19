@@ -3478,7 +3478,7 @@ background-color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
   color: #aa0000;
   width: 0;
-  animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
+animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
