@@ -3411,15 +3411,15 @@ background-color: rgba(0, 0, 0, 0.15);
   justify-content: center;
   gap: 0.5rem;
   background-color: royalblue;
-  color: #ffffff; /* <-- this makes the text white */
-  padding: 0.75rem 1.5rem;
+  color: white !important;  /* <-- add this line */
+  padding: 0.5rem 1rem;
   border-radius: 30px;
+  text-decoration: none;
   font-weight: 600;
   font-size: 0.75rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  text-align: center;
   margin: 1rem auto;
+  text-align: center;
 }
 .banner-box .icons a {
   margin: 0 0.5rem;
