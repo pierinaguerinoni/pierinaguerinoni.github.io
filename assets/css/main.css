@@ -3476,10 +3476,9 @@ background-color: rgba(0, 0, 0, 0.15);
   font-size: 2.2rem;
   font-weight: bold;
   color: #aa0000;
-  width: 0; /* start at 0 width for typing effect */
-  animation:
-    typing 2s steps(7, end) forwards,
-    blink 0.75s step-end infinite;
+  font-family: monospace;
+  width: 0;
+  animation: typing 2s steps(7, end) forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
