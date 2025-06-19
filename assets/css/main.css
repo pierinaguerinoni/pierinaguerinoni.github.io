@@ -3150,7 +3150,8 @@ input, select, textarea {
 /* Main */
 
 #main {
-  padding: 0em 0 2em 0;
+  padding: 0;
+  margin: 0;
 }
 
 		@media screen and (max-width: 736px) {
@@ -3503,7 +3504,7 @@ background-color: rgba(0, 0, 0, 0.15);
   border: none !important;
 }
 .about-section {
-  padding: 5em 2em;
+  padding: 2em 2em 5em 2em; /* top, right, bottom, left */
   text-align: center;
 }
 
