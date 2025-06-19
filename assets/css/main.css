@@ -3454,3 +3454,23 @@ display: block;
   justify-content: center;
   margin-bottom: 1.5rem;
 }
+.banner-box .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: royalblue;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  text-align: center;
+  margin: 1rem auto;
+}
+.banner-box .button i {
+  font-size: 1rem;
+  vertical-align: middle;
+}
