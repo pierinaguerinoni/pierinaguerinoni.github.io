@@ -3431,7 +3431,7 @@ background-color: rgba(0, 0, 0, 0.15);
   border-bottom: none;
 }
 .cursor {
-  display: inline-block;
+  display: none;
   margin-left: 4px;
   color: white; /* Or change to black for debugging */
   font-weight: 100;
@@ -3485,9 +3485,6 @@ background-color: rgba(0, 0, 0, 0.15);
   to { width: 14ch } 
 }
 
-@keyframes blink {
-  50% { border-color: transparent }
-}
 .banner-box .button {
   text-decoration: none;
   border-bottom: none;
@@ -3501,4 +3498,7 @@ background-color: rgba(0, 0, 0, 0.15);
 .banner-box .button a {
   text-decoration: none !important;
   border-bottom: none !important;
+}
+.typing {
+  border: none !important;
 }
